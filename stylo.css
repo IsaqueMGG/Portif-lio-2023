@@ -53,7 +53,8 @@ main {
     max-width: 800px;
     margin: 0 auto;
     padding: 40px 20px;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr;
     justify-content: center;
 }
 
@@ -122,4 +123,23 @@ p {
   td {
     padding: 10px;
     border: 1px solid #ccc;
+  }
+  
+
+  .texto{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
+
+  .texto p{
+    max-width: 200px;
+  }
+
+  .p1{
+    margin-left: 100px;
+  }
+
+  .p2{
+    margin-right: 100px
   }
